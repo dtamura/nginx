@@ -1,0 +1,8 @@
+{
+  "service": "frontend",
+  "version": "1.0.0",
+  "environment": "prod",
+  "operation_name_override": "nginx.handle",
+  "agent_host": "$DATADOG_TRACE_AGENT_HOSTNAME",
+  "agent_port": 8126
+}
